@@ -8,7 +8,7 @@ This DNN is focused on improving real-time accuracy of electrometer ADC outputs 
 
 ---
 
-## 📷 Project Summary
+## Project Summary
 
 High-resolution electrometers at NSLS-II utilize 20-bit ADCs for precision beam monitoring. However, these systems are susceptible to gain errors, offsets, and subtle nonlinearities. Traditional polynomial calibration methods lack flexibility and are performed offline.
 
@@ -32,7 +32,7 @@ This project proposes:
 
 ---
 
-## 🔧 Tools and Technologies
+## Software and Toolchain Versions Used
 
 | Tool/Framework       | Version        |
 |----------------------|----------------|
@@ -47,7 +47,7 @@ This project proposes:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 1. **Data Collection**
    - High-precision current sweeps across six ranges (±100 nA to ±10 mA) were performed using a Keithley 6221 current source and a quadEM electrometer.
@@ -74,7 +74,7 @@ This project proposes:
 
 ---
 
-## 📊 Simulatio Results
+## 📊 Simulation Results
 
 | Model Version            | RMS Error (µA) |
 |--------------------------|----------------|
