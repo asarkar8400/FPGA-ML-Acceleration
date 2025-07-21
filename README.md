@@ -1,4 +1,4 @@
-# FPGA-Based ADC Calibration Using Lightweight DNN Deployed Onto Zynq FPGA
+# Implementation and Evaluation of Deep Neural Network (DNN) Based Calibration of High-Precision Electrometer on FPGA
 
 ## 📌 Overview
 
