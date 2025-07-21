@@ -116,6 +116,6 @@ This project proposes:
 
 ## Notebooks
 
-- `nsls2em_dnn_lin_calibration.ipynb`: Trains and evaluates a minimal DNN on electrometer data.
-- `adc_deployment.ipynb`: Converts the trained model to HLS using hls4ml and tests DMA communication with the FPGA.
+- `nsls2em_dnn_lin_calibration.ipynb`: Trains and evaluates a minimal DNN on electrometer data in simulation
 - `LUT_Correction.ipynb`: Simulates residual error correction using a 20-bit interpolated LUT for comparison.
+- `fpga_deployment_overlay.ipynb`: Converts the trained model to HLS using hls4ml, deploys model onto actual hardware, and tests DMA communication with the FPGA
