@@ -100,7 +100,13 @@ This project proposes:
 
 
 
-> Absolute error per test sample between the floating-point Keras model and the fixed-point HLS model. 
+> Absolute error per test sample between the floating-point Keras model and the fixed-point HLS model.
+
+
+
+
+<img width="640" height="307" alt="image" src="https://github.com/user-attachments/assets/7acba502-a785-46b1-b5ca-10bc0215a0a8" />
+> Actual Deployment on Hardware: Residual difference between streamed input & output data on the FPGA 
 ---
 
 ## Notebooks
