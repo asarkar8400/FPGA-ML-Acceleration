@@ -74,7 +74,7 @@ This project proposes:
 
 ---
 
-## 📊 Simulation Results
+## Simulation Results
 
 | Model Version            | RMS Error (µA) |
 |--------------------------|----------------|
@@ -93,11 +93,3 @@ This project proposes:
 - `nsls2em_dnn_lin_calibration.ipynb`: Trains and evaluates a minimal DNN on electrometer data.
 - `adc_deployment.ipynb`: Converts the trained model to HLS using hls4ml and tests DMA communication with the FPGA.
 - `LUT_Correction.ipynb`: Simulates residual error correction using a 20-bit interpolated LUT for comparison.
-
----
-
-## 📚 References
-
-- [hls4ml Documentation](https://fastmachinelearning.org/hls4ml/)
-- [QKeras Repository](https://github.com/google/qkeras)
-- [PYNQ Overlay Design](https://pynq.readthedocs.io/en/latest/overlay_design_methodology.html)
