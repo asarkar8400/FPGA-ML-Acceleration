@@ -86,11 +86,11 @@ This project proposes:
 
 > The LUT-based method, using cubic interpolation of the residuals and a 20-bit upsampled LUT, achieved a 5.79× improvement in RMS error but was not feasible to deploy on hardware due to memory constraints.
 
-<img width="583" height="393" alt="image" src="https://github.com/user-attachments/assets/107de5ea-eae4-45bf-a5b7-e7e7375131fb" />
-*[Residual error comparison between the DNN and linear calibration models across the full current range]*
+<img width="583" height="393" alt="Residual comparison between DNN and linear models" src="https://github.com/user-attachments/assets/107de5ea-eae4-45bf-a5b7-e7e7375131fb" />
+**Figure:** Residual error comparison between the DNN and linear calibration models across the full current range.
 
-<img width="590" height="290" alt="image" src="https://github.com/user-attachments/assets/bc5447b0-3c21-46e8-b9c3-d3cc5c337d89" />
-*[Absolute error per test sample between the floating-point Keras model and the fixed-point HLS model]*
+<img width="590" height="290" alt="Absolute error per sample" src="https://github.com/user-attachments/assets/bc5447b0-3c21-46e8-b9c3-d3cc5c337d89" />
+**Figure:** Absolute error per test sample between the floating-point Keras model and the fixed-point HLS model.
 
 ---
 
