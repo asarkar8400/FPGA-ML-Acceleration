@@ -95,6 +95,11 @@ This project proposes:
 > Residual error comparison between the DNN and linear calibration models across the full current range
 
 <img width="590" height="290" alt="Absolute error per sample" src="https://github.com/user-attachments/assets/bc5447b0-3c21-46e8-b9c3-d3cc5c337d89" />
+
+
+
+
+
 > Absolute error per test sample between the floating-point Keras model and the fixed-point HLS model. 
 ---
 
